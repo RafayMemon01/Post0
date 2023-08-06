@@ -1,0 +1,39 @@
+BODY{
+    background-image: url('./Assets/iam_os-zOWIimSy12Q-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+}
+.text{
+    color: white;
+    font-style: normal;
+    text-decoration: none;
+    font-size: larger;
+    cursor: pointer;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.212);
+    margin: 2em;
+    border-radius: 1em;
+    padding: 0;
+    height: fit-content;
+}
+main{
+    background-color: rgba(0, 0, 0, 0.329);
+    margin-left: 10%;
+    margin-right: 10%;
+    /* margin-top: ; */
+    /* height: 15em; */
+    border: 1px solid white !important;
+    border-radius: 1em !important;
+    /* padding-top: 5px; */
+}
+main div.hero{
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-right: 25%;
+    color: white;
+}
+main div.hero h1{
+    text-align: center;
+}

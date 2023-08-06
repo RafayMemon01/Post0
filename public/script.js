@@ -1,0 +1,1 @@
+alert("Please Open This Website in PC Or Laptop Screen for best experience")
