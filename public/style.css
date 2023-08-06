@@ -1,8 +1,7 @@
-BODY{
-    background-image: url('./Assets/iam_os-zOWIimSy12Q-unsplash.jpg');
+.body{
+    background-image: url('./Assets/adelin-preda--tOr_T4qTpQ-unsplash.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /* background-position: center; */
 }
 .text{
     color: white;
@@ -12,14 +11,14 @@ BODY{
     cursor: pointer;
 }
 header{
-    background-color: rgba(0, 0, 0, 0.212);
+    /* background-color: rgba(0, 0, 0, 0.212); */
     margin: 2em;
     border-radius: 1em;
     padding: 0;
     height: fit-content;
 }
 main{
-    background-color: rgba(0, 0, 0, 0.329);
+    /* background-color: rgba(0, 0, 0, 0.329); */
     margin-left: 10%;
     margin-right: 10%;
     /* margin-top: ; */
@@ -36,4 +35,13 @@ main div.hero{
 }
 main div.hero h1{
     text-align: center;
+}
+main div.hero .signup{
+    background-color: white;
+    text-align: center;
+    margin-left: 40%;
+    margin-bottom: 1em;
+}
+main div.hero .signup:hover{
+    color: black;
 }

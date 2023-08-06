@@ -17,7 +17,7 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="body">
     <header class="text-gray-600 body-font">
       <div
         class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
@@ -47,20 +47,12 @@
           <a class="mr-5 hover:text-gray-900 text">Contact</a>
         </nav>
         <button
+          style="background-color: white"
           class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
         >
-          Login
-          <svg
-            fill="none"
-            stroke="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            class="w-4 h-4 ml-1"
-            viewBox="0 0 24 24"
+          <a style="text-decoration: none; color: black" href="./login/"
+            >Login</a
           >
-            <path d="M5 12h14M12 5l7 7-7 7"></path>
-          </svg>
         </button>
       </div>
     </header>
@@ -74,9 +66,7 @@
           platform for free posting. Embrace the freedom to be your true self
           and connect with others through unfiltered and uncensored posts.
         </p>
-        <button class="signup">
-            Signup Now
-        </button>
+        <button class="signup btn btn-primarry"><a style="color: black; text-decoration: none;" href="./sign/">Register Now</a></button>
       </div>
     </main>
 
