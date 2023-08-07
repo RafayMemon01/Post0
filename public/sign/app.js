@@ -17,7 +17,7 @@ const firebaseConfig = {
 
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
-const auth = getAuth();
+const auth = getAuth(app);
 
 let register_button = document.getElementById("register_button");
 register_button.addEventListener("click", () => {
@@ -25,7 +25,7 @@ register_button.addEventListener("click", () => {
   let password = document.getElementById("password").value; // Access the value of the password input
   console.log(email);
   console.log(password);
-  createUserWithEmailAndPassword(auth, email.value, password.value)
+  createUserWithEmailAndPassword(auth, email, password)
     .then((userCredential) => {
       // Signed in
       const user = userCredential.user;
