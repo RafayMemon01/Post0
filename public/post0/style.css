@@ -1,0 +1,199 @@
+body{
+    background-image: url('../Assets/aperture-vintage-SshYpuf607g-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    height: 7em;
+    border: 1px solid #fff;
+    border-radius: 1em;
+    background-color: rgba(17, 17, 17, 0.712);
+    display: flex;
+    justify-content: center;
+}
+.logo{
+    border: 1.5px solid #fff;
+    border-radius: 1em;
+    cursor: pointer;
+}
+.navigation{
+    width: 90%;
+    margin-top: 2em;
+}
+.otherNav{
+    margin-top: 3em;
+    display: flex;
+    justify-content: space-between;
+}
+.otherNav .notification{
+    color: #fff;
+    margin-left: .5em;
+    font-size: larger;
+}
+#exampleModal .modal-header {
+    background-color: #333; /* Change the header background color */
+    color: #fff; /* Change the header text color */
+  }
+  
+  #exampleModal .modal-footer {
+    background-color: #333; /* Change the footer background color */
+    color: #fff; /* Change the footer text color */
+  }
+  
+  #exampleModal .modal-body {
+    color: #333; /* Change the body text color */
+  }
+  div.modal-body{
+    background-color: #333;
+  }
+  #name{
+    width: 40%;
+    border-radius: .5em;
+  }
+  #text{
+    width: 100%;
+    margin-top: 1em;
+    border-radius: .5em;
+    height: 20em;
+  }
+  
+  .post{
+    color: white;
+    position: fixed;
+    top: 80%;
+    left: 95%;
+    
+}
+.post i{
+    font-size: 36px;
+    background-color: #333;
+    height: 2em;
+    border-radius: 1em;
+    
+}
+main {
+    display: flex;}
+
+  main div.vNavbarLeft{
+    width: 13%;
+    margin: 2%;
+    padding: 2%;
+    border: 1px solid #fff;
+    background-color: rgba(17, 17, 17, 0.712);
+    height: 100%;
+    border-radius: 1em;
+    
+  }
+main div.vNavbarLeft nav{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* height: max-content; */
+}
+main div.vNavbarLeft nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style-type: none;
+}
+main div.vNavbarLeft nav ul li{
+    /* color: #fff; */
+    display: flex;
+    justify-self:left ;
+    margin-top: 1em;
+    /* margin-right: 1; */
+    border: 1px solid white;
+    justify-content: center;
+
+}
+main div.vNavbarLeft nav .btnmain{
+    margin-top: 10em;
+}
+main div.vNavbarLeft nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.link{
+    margin-top: .5em;
+}
+.link a{
+    text-decoration: none;
+    color: black;
+}
+main div.feedMainbox{
+    border: 1px solid #fff;
+    margin: 2%;
+    border-radius:1em ;
+    width: 100%;
+    padding: 1%;
+    background-color: rgba(17, 17, 17, 0.712);
+}
+feedBoxHeader{
+
+    display: flex;
+    justify-content: space-between;
+}
+feedBoxHeader h3{
+    color: #fff;
+}
+feedBoxHeader button{
+    background-color: white;
+    /* background: none; */
+    border: #fff;
+    border-radius: 2em;
+
+}
+feedBoxHeader  div .Search{
+    border: none;
+    background-color: #ffffff;
+    border-radius: .5em;
+    padding-left: 5px;
+}
+feedBoxBody{
+    border: 1 px solid white;
+    margin-top: 1em;
+    overflow-x: scroll;
+    overflow-y: scroll;
+
+}
+post{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    flex-direction: column;
+    background-color: rgba(17, 17, 17, 0.712);
+    color: #fff;
+    padding: 2em;
+    width: 50%;
+    margin: 2%;
+    border-radius:1em ;
+}
+postHeader{
+    display: flex;
+    justify-content: baseline;
+    justify-content: space-between;
+}
+postBody textarea{
+    resize: none;
+    height: 6em;
+    width: 20em;
+    background-color: transparent;
+    border: none;
+    border-radius: 2em;
+    color: #fff;
+    padding-left: 1em;
+    
+}
+postfooter{
+    display: flex;
+    justify-content: space-between;
+}
+postfooter button{
+    background: none;
+    border: none;
+}
+postfooter button i{
+    font-size: 20px;
+    color: #fff;
+}
+    
