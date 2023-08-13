@@ -1,0 +1,24 @@
+{
+  "name": "post0",
+  "version": "1.0.0",
+  "description": "A Posting App Where User can Post ",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "server": "nodemon server.mjs"
+  },
+  "keywords": [
+    "post0",
+    "Rafay memon",
+    "posting app",
+    "threads Website Clone"
+  ],
+  "author": "Rafay Memon",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
