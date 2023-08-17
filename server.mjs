@@ -6,7 +6,10 @@ const __dirname = path.resolve();
 const app = express();
 app.use(cors());
 
-import apiv1Router from "./APIV1/main.mjs";
+import apiv1Router from "./apiv1/main.mjs";
+// mongoDB
+
+
 
 app.use(express.json());
 

@@ -1,8 +1,7 @@
-import express from 'express';
-let router = express.Router()
+import express from "express";
+let router = express.Router();
+import { client } from "./../../mongodb.mjs";
+import jwt from "jsonwebtoken";
+// import { create}
 
-router.get('/login', (req, res, next) =>{
-    res.send('This Is Comment Auth Login')    
-
-})
-export default router
+export default router;
